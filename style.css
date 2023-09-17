@@ -233,6 +233,90 @@ html {
   color: var(--button-color);
   cursor: pointer;
 }
+.sub-header-div1 {
+  position: absolute;
+  z-index: 500;
+  text-align: left;
+  left: -1000px;
+  top: 80px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  height: 390px;
+  width: fit-content;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+  padding: 10px;
+}
+.subHeaderDivUnhide1 {
+  left: 17%;
+}
+.nav .sub-header-div1 .contents ul li a {
+  color: rgb(100, 95, 95);
+}
+.sub-header-div1 .contents ul li a:hover {
+  color: var(--button-color);
+}
+.sub-header-div1 .contents1 ul li a {
+  color: rgb(100, 95, 95);
+}
+.sub-header-div1 .contents1 ul li a:hover {
+  color: var(--button-color);
+}
+.sub-header-div1 .contents2 ul li a {
+  color: rgb(100, 95, 95);
+}
+.sub-header-div1 .contents2 ul li a:hover {
+  color: var(--button-color);
+}
+.contents {
+  width: 250px;
+}
+
+.contents h5 {
+  border-bottom: solid rgb(100, 95, 95) 1px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.contents h5:hover {
+  color: var(--button-color);
+  cursor: pointer;
+}
+.contents1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.contents1 h5:hover {
+  color: var(--button-color);
+  cursor: pointer;
+}
+.contents1 h5 {
+  border-bottom: solid rgb(100, 95, 95) 1px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.contents1 .first-child {
+  margin-top: 10px;
+}
+.contents1 .second-child {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.contents2 {
+  margin-left: 80px;
+}
+.contents2 h5 {
+  border-bottom: solid rgb(100, 95, 95) 1px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.contents2 h5:hover {
+  color: var(--button-color);
+  cursor: pointer;
+}
 
 .navlinksShown {
   left: 0;
